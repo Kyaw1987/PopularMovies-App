@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingBottom">@dimen/button_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/button_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/button_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/button_vertical_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!-- activity_movie_lists theme. -->
+    <!--  <style name="ActivityMovieListsTheme" parent="AppTheme">
+          <item name="actionBarStyle">@style/ActionBar.Solid.PopularMovies.NoTitle</item>
+      </style>-->
+
+    <!-- activity_movie_lists action bar style-->
+    <!--  <style name="ActionBar.Solid.PopularMovies.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+          <item name="displayOptions">useLogo|homeAsUp</item>
+          <item name="logo">@drawable/ic_logo</item>
+      </style>-->
+
+    <!-- activity_movie_detail theme.-->
+    <!--<style name="ActivityMovieDetailTheme" parent="AppTheme"></style>-->
+
+    <!-- activity_settings theme.-->
+    <!--<style name="ActivitySettingsTheme" parent="AppTheme"></style>-->
+
+
+</resources>

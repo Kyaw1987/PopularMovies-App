@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.freelance.android.brooklyn.popularmoviesapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- activity_movie_lists.xml -->
+        <activity
+            android:name=".activities.MovieListsActivity"
+            android:label="@string/title_activity_movie_lists"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- activity_movie_detail.xml -->
+        <activity
+            android:name=".activities.MovieDetailActivity"
+            android:label="@string/title_activity_movie_detail"
+            android:parentActivityName=".activities.MovieListsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.freelance.android.brooklyn.popularmoviesapp.activities.MovieListsActivity" />
+        </activity>
+
+        <!--activity_settings.xml-->
+        <activity android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activities.MovieListsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.freelance.android.brooklyn.popularmoviesapp.activities.SettingsActivity" />
+        </activity>
+
+        <!--u must need to do below code or injection for ContentProvider in AndroidManifest.xml-->
+        <provider
+            android:authorities="@string/content_authority"
+            android:name=".data.MovieContentProvider"
+            android:exported="true"
+            android:syncable="true"/>
+    </application>
+
+</manifest>

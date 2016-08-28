@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!--movie_list_content.xml-->
+    <dimen name="movie_title_padding_for_grid">16dp</dimen>
+
+    <!--MovieListsAdapter.java-->
+    <integer name="grid_number_cols">2</integer>
+
+    <!--activity_movie_detail.xml-->
+    <dimen name="app_bar_height">200dp</dimen>
+
+    <!--styles.xml and v21\styles.xml used below attributes.-->
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_vertical_padding">0dp</dimen>
+    <dimen name="button_horizontal_padding">16dp</dimen>
+
+    <!--MovieReviewsAdapter.java-->
+    <dimen name="detail_horizontal_padding">16dp</dimen>
+    <dimen name="detail_vertical_padding">8dp</dimen>
+
+    <!--trailer_list_content.xml-->
+    <dimen name="trailer_width_for_detail">150dp</dimen>
+    <dimen name="trailer_height_for_detail">100dp</dimen>
+
+    <!--favourite_buttons.xml-->
+    <dimen name="button_vertical_margin">16dp</dimen>
+
+    <!--movie_detail.xml-->
+    <dimen name="detail_horizontal_margin">16dp</dimen>
+    <dimen name="movie_poster_width_for_detail">140dp</dimen>
+    <dimen name="movie_poster_height_for_detail">210dp</dimen>
+    <dimen name="movie_poster_vertical_padding">16dp</dimen>
+    <dimen name="movie_poster_padding_right">16dp</dimen>
+    <dimen name="detail_title_bottom_margin">4dp</dimen>
+    <dimen name="detail_title_left_padding">4dp</dimen>
+    <dimen name="movie_date_vertical_padding">16dp</dimen>
+    <dimen name="movie_overview_padding_top">16dp</dimen>
+    <dimen name="trailer_list_vertical_padding">16dp</dimen>
+
+    <!--round_button_bg.xml-->
+    <dimen name="round_button_width">70dp</dimen>
+    <dimen name="round_button_height">90dp</dimen>
+    <dimen name="button_border_stoke_width">3dp</dimen>
+
+    <!--movie_list_content.xml-->
+    <dimen name="marginBottom">1.5dp</dimen>
+
+
+    <!--not included n u can remove-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="vertical_spacing">32dp</dimen>
+    <dimen name="horizontal_spacing">8dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="grid_item_movie_width">130dp</dimen>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#FF5252</color>
+    -->
+
+
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#7A1EA1</color>
+    <color name="colorAccent">#69F0AE</color>
+
+    <!--review_list_content.xml-->
+    <color name="text_color_for_review_content">@android:color/black</color>
+    <color name="text_color_for_movie_overview">@android:color/black</color>
+
+    <!--empty_state_connection.xml-->
+    <color name="empty_view_text_color">#BDBDBD</color>
+
+    <!--movie_list.xml-->
+    <color name="bgColor">#ECEFF1</color>
+
+</resources>
